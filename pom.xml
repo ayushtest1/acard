@@ -18,16 +18,16 @@
    <distributionManagement>
      <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>acard_releases</id>
-      <name>acard_releases</name>
-      <url>http://54.85.210.179:8081/nexus/content/repositories/acard_releases/</url>
+      <id>acard-releases</id>
+      <name>acard-releases</name>
+      <url>http://54.164.92.173:8081/nexus/content/repositories/acard-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>acard_snapshots</id>
-      <name>acard_snapshots</name>
-      <url>http://54.85.210.179:8081/nexus/content/repositories/acard_snapshots/</url>
+      <id>acard-snapshots</id>
+      <name>acard-snapshots</name>
+      <url>http://54.164.92.173:8081/nexus/content/repositories/acard-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
