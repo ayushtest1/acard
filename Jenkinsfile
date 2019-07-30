@@ -2,7 +2,7 @@
 
 node ('maven-label') {
    def mvnHome
-   def sayHello1(string name= 'human'){
+   def sayHello1(string name = 'human'){
     echo "Hello,$name"  
    }
    
