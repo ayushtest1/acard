@@ -7,6 +7,10 @@ node ('maven-label') {
           {
            sayHello 'Intellipaat'
           }
+   stage('shared-library-2')
+         {
+            download_artifact 'www.google.com'
+         }
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
       git 'https://github.com/ayushtest1/acard.git'
