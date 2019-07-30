@@ -1,5 +1,12 @@
+@Library ('pipeline-library-demo')_
+
 node ('maven-label') {
    def mvnHome
+   
+   stage ('shared-library-ex)
+          {
+           sayHello("Intellipaat")  
+          }
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
       git 'https://github.com/ayushtest1/acard.git'
