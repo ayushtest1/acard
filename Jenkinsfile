@@ -2,6 +2,9 @@
 
 node ('maven-label') {
    def mvnHome
+   def sayHello1(string name='human'){
+    echo "Hello,$name"  
+   }
    
    stage('shared-library-ex')
           {
@@ -11,6 +14,10 @@ node ('maven-label') {
          {
             download_artifact 'www.google.com'
          }
+   stage('reference-library')
+   {
+      sayHello1 'Ayush'
+   }
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
       git 'https://github.com/ayushtest1/acard.git'
