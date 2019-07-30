@@ -3,7 +3,7 @@
 node ('maven-label') {
    def mvnHome
    
-   stage ('shared-library-ex')
+   stage('shared-library-ex')
           {
            sayHello("Intellipaat")  
           }
