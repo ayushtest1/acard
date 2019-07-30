@@ -1,10 +1,10 @@
 @Library('pipeline-library-demo')_
-
-node ('maven-label') {
-   def mvnHome
-   def sayHello1(String name = 'human'){
+ def sayHello1(String name = 'human'){
     echo "Hello,$name"  
    }
+node ('maven-label') {
+   def mvnHome
+  
    
    stage('shared-library-ex')
           {
