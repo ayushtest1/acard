@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>acard-releases</id>
       <name>acard-releases</name>
-      <url>http://ip-172-31-88-208.ec2.internal:8081/nexus/content/repositories/acard-releases/</url>
+      <url>http://ip-172-31-90-132.ec2.internal:8081/nexus/content/repositories/acard-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>acard-snapshots</id>
       <name>acard-snapshots</name>
-      <url>http://ip-172-31-88-208.ec2.internal:8081/nexus/content/repositories/acard-snapshots/</url>
+      <url>http://ip-172-31-90-132.ec2.internal:8081/nexus/content/repositories/acard-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
